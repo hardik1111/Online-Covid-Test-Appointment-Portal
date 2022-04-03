@@ -1,0 +1,1 @@
+<?php header("location:site_configuration.php"); ?>

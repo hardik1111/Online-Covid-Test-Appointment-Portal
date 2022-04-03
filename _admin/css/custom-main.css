@@ -1,0 +1,43 @@
+.chk-div {
+  background-color: #a60f0f;
+  padding-right: 10px;
+  color: white;
+}
+.card-shadow
+{
+    -webkit-box-shadow: -2px 2px 12px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 12px 2px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 12px 2px rgba(0,0,0,0.75);
+}
+
+.user-img
+{
+    height: 150x;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+.checkbox-lg .custom-control-label::before, 
+.checkbox-lg .custom-control-label::after {
+  width: 1.65rem;
+  height: 1.65rem;
+}
+
+.checkbox-lg .custom-control-label {
+  padding-top: 6px;
+  padding-left: 6px;
+}
+
+
+.checkbox-xl .custom-control-label::before, 
+.checkbox-xl .custom-control-label::after {
+  top:6px;
+  width: 1.85rem;
+  height: 1.85rem;
+}
+
+.checkbox-xl .custom-control-label {
+  padding-top: 10px;
+  padding-left: 10px;
+}

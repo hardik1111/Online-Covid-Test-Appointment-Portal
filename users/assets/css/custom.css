@@ -1,0 +1,72 @@
+.login-heading{background-color:#3b5998;padding: 20px;font-size:18px;border-top-left-radius:15px;border-top-right-radius:15px;}
+.profile-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.profile-item { 
+}
+.profile-item img {
+  width: 100px;
+  height: 100px;
+}
+.profile-item div{    overflow-wrap: break-word;}
+.whitebox{min-height: 100px;background-color: white;border: 1px solid #ddd;padding: 5px;margin: 5px;}
+.label{font-weight: bold;text-align: justify;display: inline-block;}
+#editprofile{display: none;}
+.my-icon{font-size: 18px;padding: 5px;}
+.fa-whatsapp{color: white !important;background-color:#24cc63;border-radius: 50%;}
+.fa-edit,.fa-comment-dots,.fa-eye{color: #0062cc;}
+.fa,.far,.fas{cursor: pointer;}
+.profile-inner-container {
+	   display: grid;
+	  grid-template-columns: 25% 75%;
+	}	
+.profile-inner-item
+{
+	padding:3px 0px ;
+}
+.status-active{color:white;padding:5px;border-radius: 3px;}
+.open{background-color:#0062cc;}
+.followup{background-color:green;}
+.closed{background-color:orange;}
+.cancelled{background-color:red;}
+.meetingdone{background-color:maroon;}
+.meetingcancel{background-color:#FF6347;}
+.selectOption{border: 1px solid #ddd;}
+
+@media only screen and (max-width: 800px)
+{
+	
+	.circular-bar,.circular-bar-chart{display: inline-block;}
+	.mobile-padding-grid{padding-top: 20px;}
+	.profile-inner-container {
+	   display: grid;
+	  grid-template-columns: 40% 60%;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	}	
+	
+	.profile-container {
+	  grid-template-columns: 100%;
+	}
+	.profile-item img {
+	  height: 80px;
+	  width: 80px;
+	}
+}
+@media only screen and (min-width: 900px)
+{
+	.mobile-id{margin-left:-35px;}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px)
+{
+	canvas{height: 114px !important;width: 110px  !important;}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+	canvas{height: 125px !important;width: 130px  !important;}	
+}
+@media only screen and (min-width: 769px) and (max-width: 1026px)
+{
+	canvas{height: 125px !important;width: 130px  !important;}
+}
